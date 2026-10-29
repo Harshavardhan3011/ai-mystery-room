@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; font-family: 'DM Sans', sans-serif; background: #0b1020; font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, input, textarea { font: inherit; }
+.font-display { font-family: 'Playfair Display', Georgia, serif; }
+::selection { background: rgba(244,163,64,.35); color: #fff; }
+
+@layer components {
+  .btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-bold text-ink transition hover:bg-amber-300 disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-secondary { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/[.03] px-5 py-3.5 text-sm font-semibold text-paper transition hover:border-white/30 hover:bg-white/[.07]; }
+  .back-link { @apply inline-flex items-center gap-2 text-sm text-paper/45 transition hover:text-paper; }
+  .field-label { @apply block text-xs font-semibold uppercase tracking-[.2em] text-paper/70; }
+  .field-input { @apply mt-3 w-full rounded-xl border border-white/10 bg-ink px-4 py-4 text-sm leading-7 text-paper outline-none transition placeholder:text-paper/25 focus:border-accent/60 focus:ring-2 focus:ring-accent/10; }
+  .difficulty-card { @apply rounded-2xl border border-white/10 bg-panel p-5 transition hover:border-white/25; }
+  .difficulty-selected { @apply border-accent/60 bg-accent/[.06] ring-1 ring-accent/20; }
+  .evidence-card { @apply rounded-xl border border-white/10 bg-ink/60 p-4; }
+}
