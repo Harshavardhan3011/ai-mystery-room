@@ -1,7 +1,6 @@
 # AI Mystery Room — Project Specification
 
-> **Primary source:** *Build Your AI Mystery Room — Guide Doc.pdf* (uploaded project guide).
->
+
 > **Labeling convention**
 > - **[GUIDE REQUIREMENT]** means the requirement is explicitly stated in the guide.
 > - **[ADDITIONAL RECOMMENDATION]** means a practical detail proposed to make implementation, testing, or deployment more reliable. It is not an explicit requirement in the guide.
