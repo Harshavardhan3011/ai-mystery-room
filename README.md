@@ -1,6 +1,6 @@
 # AI Mystery Room
 
-A full-stack AI mystery-solving game based on the uploaded **Build Your AI Mystery Room — Guide Doc.pdf**.
+A full-stack AI mystery-solving game based on the uploaded **Build Your AI Mystery Room .
 
 ## Requirement labels used in this project
 
